@@ -1,0 +1,42 @@
+.cart-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-modal {
+    background-color: rgba(248, 248, 248, 0.993);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .cart-modal ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-modal li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-modal button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-modal h3 {
+    margin-top: 20px;
+  }
+  
